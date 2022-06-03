@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Indie+Flower&display=swap');
+BODY {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#4eac8c, #226450, #25808b, #314572);
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center; 
+    animation: cubic-bezier();
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.social-midia {
+    margin-top: 1rem;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+    padding:  1rem 4rem;
+    border: 1px solid aliceblue;
+    min-width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  .5s cubic-bezier(0.55,0.025, 0.675, 0.97);
+}
+
+a:hover {
+    color: #4eac8c;
+    background: aliceblue;
+}
+

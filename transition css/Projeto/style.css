@@ -1,72 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Indie+Flower&display=swap');
-BODY {
-    margin: 0;
-    padding: 0;
-    color: aliceblue;
-   /* font-family: 'Amatic SC', cursive;*/
-   /* font-family: 'Architects Daughter', cursive;*/
-    font-family: 'Indie Flower', cursive;
-}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Indie+Flower&family=Poppins:wght@100&display=swap');
 
-.wrapper {
+
+body {
+    padding: 0%;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Indie Flower', sans-serif;
+}
+    
+
+.header-wrapper {
     height: 100vh;
-    width: 100vw;
-   /* background: linear-gradient(-45deg, #4d665e, #339e7e, #06505a, #8395be);*/
-    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    width: 100%;
+    background: linear-gradient(-45deg, #eea2a2 , #bbc1bf , #57c6e1 , #b49fda , #7ac5d8);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
-    justify-content: center;   
-    align-items: center; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
     animation: backgroundTransition 8s ease-in-out infinite;
-    
-    
-}
 
+}
 h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
-
 }
+
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
-.social-midia {
+.social-media {
     margin-top: 1rem;
     display: flex;
 }
-/**/
-a {
+
+.social-media a {
     text-decoration: none;
     color: aliceblue;
     font-size: 24px;
-    padding:  1rem 4rem;
+    padding: 1rem 4rem;
     border: 1px solid aliceblue;
     min-width: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition:  .5s cubic-bezier(0.55,0.025, 0.675, 0.97);
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 }
 
 a:hover {
-    color: #608df0;
+    color: #b49fda;
     background-color: aliceblue;
 }
 
 @keyframes backgroundTransition {
-    0%{
+    0% {
         background-position: 0% 80%;
     }
     50% {
         background-position: 80% 100%;
     }
     100% {
-        background-position: 15% 90%;
+        background-position: 0% 90% ;
     }
 }
-
-
-
